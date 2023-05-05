@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>GlitchedPolygons.RepositoryPattern.SQLServer</Title>
+    <AssemblyName>GlitchedPolygons.RepositoryPattern.SQLServer</AssemblyName>
+    <RootNamespace>GlitchedPolygons.RepositoryPattern.SQLServer</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Abstract base class for SQL Server repositories.</Description>
+    <Authors>Glitched Polygons</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/GlitchedPolygons/RepositoryPattern</PackageProjectUrl>
+    <PackageTags>c# repository design pattern base interface declaration db database access abstraction repositories sql relational rdbms dbms mssql sqlserver</PackageTags>
+    <RepositoryUrl>https://github.com/GlitchedPolygons/RepositoryPattern.SQLServer</RepositoryUrl>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageReleaseNotes />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\GlitchedPolygons.RepositoryPattern.SQLServer.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\GlitchedPolygons.RepositoryPattern.SQLServer.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="GlitchedPolygons.RepositoryPattern" Version="1.0.6" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+  </ItemGroup>
+
+
+<PropertyGroup>
+  <PackageIcon>icon.png</PackageIcon>
+</PropertyGroup>
+
+<ItemGroup>
+  <None Include="icon.png" Pack="true" PackagePath="\" />
+</ItemGroup>
+
+</Project>
