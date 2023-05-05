@@ -12,7 +12,7 @@
           "hash": "8Ps3CgnEdlbw1hJqYxfUbQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "inJBqkS1HwqsZ91zFjA73w=="
+          "hash": "cuotah2j5SOCoPtny413tw=="
         }
       },
       "is_incremental": true,
@@ -87,7 +87,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         }
       }
     },
